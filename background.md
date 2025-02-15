@@ -17,12 +17,12 @@ With rapid urbanization and climate change concerns, a data-driven approach is n
 This study is crucial for several reasons:  
 
 1. **Infrastructure Gaps Impact Global Development**  
-   - Over **1 billion people** lack access to reliable electricity, while **2.4 billion** people lack safe sanitation facilities.  
-   - Poor infrastructure hinders economic opportunities, reduces productivity, and slows industrial growth.  
+   - Over **1 billion people** lack access to reliable electricity, while **2.4 billion** people lack safe sanitation facilities<mark>(cite)</mark>.  
+   - Poor infrastructure hinders economic opportunities, reduces productivity, and slows industrial growth<mark>(cite)</mark>.  
 
 2. **Industrialization Drives Economic Progress**  
    - Sustainable industries create jobs, enhance productivity, and improve living standards.  
-   - Countries with strong industrial bases tend to have higher GDP growth rates.  
+   - Countries with strong industrial bases tend to have higher GDP growth rates<mark>(cite)</mark>.  
 
 3. **Innovation Fuels Competitiveness**  
    - Research and development (R&D) investments lead to technological breakthroughs and new industries.  
@@ -42,7 +42,7 @@ This study aims to:
 4. Evaluate the effectiveness of sustainable industrial policies.  
 5. Provide data-driven recommendations for resilient infrastructure investments.  
 
-## Potential Datasets  
+## Datasets  
 
 1. **World Bank Infrastructure Data**  
    - Source: [https://data.worldbank.org/topic/infrastructure](https://data.worldbank.org/topic/infrastructure)  

@@ -1,6 +1,8 @@
 # Building Resilient Infrastructure, Promoting Inclusive and Sustainable Industrialization, and Fostering Innovation  
 *A Decision Intelligence Analysis of UN Sustainable Development Goal 9 (SDG 9)*  
 
+By: Siddharth Koyada
+
 ## Executive Summary  
 
 Infrastructure is the backbone of economic growth, social development, and technological progress. However, many regions still lack reliable infrastructure, leading to inefficiencies in transportation, energy, and industrial development. Sustainable industrialization and innovation are critical for economic resilience, environmental sustainability, and reducing inequalities.  
@@ -14,8 +16,11 @@ For a deeper understanding of the problem, datasets, and methodology, refer to t
 The success of resilient infrastructure, sustainable industrialization, and innovation can be measured using the following KPIs:
 
 1. **Infrastructure Quality Index**  
+   - <mark>Consider a value statement here to demonstrate you are thinking about the broader picture, for example: The IQI provides insights into infrastructure performance that can stimulate productivity, create jobs, and enhance economic opportunities.  --- you might want to bring economic indicators to correlated IQI with GPD for example</mark>
    - *Definition:* Measures the reliability, accessibility, and efficiency of infrastructure such as roads, electricity, and water supply.  
    - *Measurement:* Infrastructure quality ratings from global development reports.  
+   - <mark>Frequency?</mark>
+   - <mark>Range: 1-999?</mark>
 
 2. **Industrialization Growth Rate**  
    - *Definition:* The rate of growth in the manufacturing and industrial sector as a percentage of GDP.  
