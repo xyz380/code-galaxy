@@ -15,12 +15,67 @@ For a deeper understanding of the problem, datasets, and methodology, refer to t
 
 The success of resilient infrastructure, sustainable industrialization, and innovation can be measured using the following KPIs:
 
-1. **Infrastructure Quality Index**  
-   - <mark>Consider a value statement here to demonstrate you are thinking about the broader picture, for example: The IQI provides insights into infrastructure performance that can stimulate productivity, create jobs, and enhance economic opportunities.  --- you might want to bring economic indicators to correlated IQI with GPD for example</mark>
-   - *Definition:* Measures the reliability, accessibility, and efficiency of infrastructure such as roads, electricity, and water supply.  
-   - *Measurement:* Infrastructure quality ratings from global development reports.  
-   - <mark>Frequency?</mark>
-   - <mark>Range: 1-999?</mark>
+import pandas as pd
+
+# Load your energy consumption dataset (replace with your file path)
+data = pd.read_csv('industrial_energy_consumption.csv')
+
+# Display the first few rows of the dataset to check the structure
+print(data.head())
+
+# Clean and preprocess data (if necessary)
+# For example, removing any NaN values or handling missing data
+data = data.dropna()
+
+# 1. Total energy consumption by industry
+total_energy_consumption = data.groupby('Industry')['Energy_Consumption_GJ'].sum().reset_index()
+
+# 2. Top 5 energy-consuming industries
+top_5_industries = total_energy_consumption.nlargest(5, 'Energy_Consumption_GJ')
+
+# 3. Energy consumption growth rate (YoY)
+# Assuming the data has columns 'Year' and 'Energy_Consumption_GJ'
+data['Growth_Rate'] = data.groupby('Industry')['Energy_Consumption_GJ'].pct_change() * 100
+growth_rate = data.groupby('Industry')['Growth_Rate'].mean().reset_index()
+
+# 4. Energy intensity (GJ per $1M industrial output)
+# Assuming you have a column 'Industrial_Output' in your dataset
+data['Energy_Intensity'] = data['Energy_Consumption_GJ'] / (data['Industrial_Output'] / 1000000)
+energy_intensity = data.groupby('Industry')['Energy_Intensity'].mean().reset_index()
+
+# 5. Merging top 5 industries, growth rate, and energy intensity
+analysis = top_5_industries.merge(growth_rate, on='Industry').merge(energy_intensity, on='Industry')
+
+# Display the final analysis
+print(analysis)
+
+# Save the results to a CSV file for later use or upload to GitHub
+analysis.to_csv('industrial_energy_analysis.csv', index=False)
+
+# You can also plot the data if necessary using matplotlib or seaborn
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Plot the total energy consumption for top 5 industries
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Industry', y='Energy_Consumption_GJ', data=top_5_industries)
+plt.title('Top 5 Energy Consuming Industries')
+plt.xlabel('Industry')
+plt.ylabel('Total Energy Consumption (GJ)')
+plt.xticks(rotation=45)
+plt.show()
+
+# Plot energy intensity for top 5 industries
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Industry', y='Energy_Intensity', data=analysis)
+plt.title('Energy Intensity for Top 5 Industries')
+plt.xlabel('Industry')
+plt.ylabel('Energy Intensity (GJ per $1M Output)')
+plt.xticks(rotation=45)
+plt.show()
+
+# Optionally, you can push this code and the results to GitHub from here.
+
 
 2. **Industrialization Growth Rate**  
    - *Definition:* The rate of growth in the manufacturing and industrial sector as a percentage of GDP.  
