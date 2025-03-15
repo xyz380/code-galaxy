@@ -13,7 +13,7 @@ For a deeper understanding of the problem, datasets, and methodology, refer to t
 
 ## Key Performance Indicators (KPIs)
 
-### Total Energy Consumption by Industry
+1. ### Total Energy Consumption by Industry
 
 This KPI highlights the industries with the highest energy consumption (in GJ), helping identify key sectors for energy optimization. It provides insights into which industries should be prioritized for energy efficiency initiatives.
 
@@ -27,88 +27,53 @@ This KPI highlights the industries with the highest energy consumption (in GJ), 
 - These industries should be prioritized for energy efficiency improvements.
 - **Manufacturing** stands out as a significant energy consumer, and improvements here could lead to substantial energy savings.
 - **Paper Manufacturing** and **Primary Metal Manufacturing** also contribute heavily to energy consumption, suggesting that optimization measures in these sectors would yield environmental and cost benefits.
+- 
+2. ### Employee Earnings Growth Across Industries
+
+This KPI visualizes the growth of employee earnings across different industries from 2001 to 2023. It highlights industries that have shown consistent increases in earnings over time.
+
+![Employee Earnings Growth Across Industries](./visualizations/employee_earnings_growth.png)
+
+#### Insights:
+- **Highway street bridge construction**, **mining and quarrying**, and **gas extraction and utility system construction** have experienced the highest growth in employee earnings over the years.
+- This increase suggests rising demand or higher compensation levels in these industries.
+- Monitoring these trends is crucial for assessing the labor market's health and identifying sectors with rising job opportunities.
+
+3. ### Capital Expenditure on Infrastructure and Transportation Infrastructure
+
+This KPI tracks the capital expenditure on infrastructure and transportation infrastructure from 2013 to 2023. It highlights the top-growing sectors in terms of investment.
+
+![Capital Expenditure on Infrastructure and Transportation Infrastructure](./visualizations/capital_expenditure_infrastructure_transportation.png)
+
+#### Insights:
+- **Infrastructure** and **transportation infrastructure** are the top two sectors with the highest capital expenditure over the years.
+- Capital expenditure on these sectors has increased year over year, indicating a focus on strengthening transportation and essential infrastructure.
+- Tracking this growth helps guide strategic investment decisions and ensures that resources are directed toward key areas for long-term development.
+
+4. ### Greenhouse Gas Emission by Province
+
+This KPI visualizes the greenhouse gas emissions across Canadian provinces using a geographic map. It identifies which provinces have the highest emissions, supporting targeted efforts to reduce environmental impact.
+
+![Greenhouse Gas Emission by Province](./visualizations/ghg_emission_by_province.png)
+
+#### Insights:
+- **Ontario** and **Alberta** have the highest greenhouse gas emissions in Canada, as shown by the darker colors on the map.
+- These provinces contribute significantly to Canada's overall emissions, and efforts to reduce emissions here could have a major impact.
+- Monitoring emissions by province is crucial for tracking Canada's progress in meeting environmental sustainability goals.
+
+5. ### Plastic Usage by Province and Industry Over Time
+
+This KPI highlights the trend of plastic usage across Canadian provinces and industries from 2012 to 2021. It shows where plastic consumption is increasing, focusing on the most significant provinces and industries.
+
+![Plastic Usage by Province and Industry Over Time](./visualizations/plastic_usage_over_time.png)
+
+#### Insights:
+- **Ontario** and **Quebec** have the highest plastic usage among Canadian provinces and have shown an increasing trend over the years.
+- Plastic usage in these provinces has grown from 2012 to 2021.
+- The **Packaging** and **Vehicle** industries are the top consumers of plastic and have seen significant increases in usage over the years.
+- The rising trend in plastic usage in these provinces and industries suggests that targeted efforts for reduction are crucial.
 
 
-
-The success of resilient infrastructure, sustainable industrialization, and innovation can be measured using the following KPIs:
-
-import pandas as pd
-
-# Load your energy consumption dataset (replace with your file path)
-data = pd.read_csv('industrial_energy_consumption.csv')
-
-# Display the first few rows of the dataset to check the structure
-print(data.head())
-
-# Clean and preprocess data (if necessary)
-# For example, removing any NaN values or handling missing data
-data = data.dropna()
-
-# 1. Total energy consumption by industry
-total_energy_consumption = data.groupby('Industry')['Energy_Consumption_GJ'].sum().reset_index()
-
-# 2. Top 5 energy-consuming industries
-top_5_industries = total_energy_consumption.nlargest(5, 'Energy_Consumption_GJ')
-
-# 3. Energy consumption growth rate (YoY)
-# Assuming the data has columns 'Year' and 'Energy_Consumption_GJ'
-data['Growth_Rate'] = data.groupby('Industry')['Energy_Consumption_GJ'].pct_change() * 100
-growth_rate = data.groupby('Industry')['Growth_Rate'].mean().reset_index()
-
-# 4. Energy intensity (GJ per $1M industrial output)
-# Assuming you have a column 'Industrial_Output' in your dataset
-data['Energy_Intensity'] = data['Energy_Consumption_GJ'] / (data['Industrial_Output'] / 1000000)
-energy_intensity = data.groupby('Industry')['Energy_Intensity'].mean().reset_index()
-
-# 5. Merging top 5 industries, growth rate, and energy intensity
-analysis = top_5_industries.merge(growth_rate, on='Industry').merge(energy_intensity, on='Industry')
-
-# Display the final analysis
-print(analysis)
-
-# Save the results to a CSV file for later use or upload to GitHub
-analysis.to_csv('industrial_energy_analysis.csv', index=False)
-
-# You can also plot the data if necessary using matplotlib or seaborn
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# Plot the total energy consumption for top 5 industries
-plt.figure(figsize=(10, 6))
-sns.barplot(x='Industry', y='Energy_Consumption_GJ', data=top_5_industries)
-plt.title('Top 5 Energy Consuming Industries')
-plt.xlabel('Industry')
-plt.ylabel('Total Energy Consumption (GJ)')
-plt.xticks(rotation=45)
-plt.show()
-
-# Plot energy intensity for top 5 industries
-plt.figure(figsize=(10, 6))
-sns.barplot(x='Industry', y='Energy_Intensity', data=analysis)
-plt.title('Energy Intensity for Top 5 Industries')
-plt.xlabel('Industry')
-plt.ylabel('Energy Intensity (GJ per $1M Output)')
-plt.xticks(rotation=45)
-plt.show()
-
-# Optionally, you can push this code and the results to GitHub from here.
-
-
-2. **Industrialization Growth Rate**  
-   - *Definition:* The rate of growth in the manufacturing and industrial sector as a percentage of GDP.  
-   - *Measurement:* National and global industrial production data.  
-
-3. **Innovation Index**  
-   - *Definition:* A measure of a country’s ability to innovate based on research output, patents, and technology adoption.  
-   - *Measurement:* Data from the Global Innovation Index.  
-
-4. **CO₂ Emissions per Unit of Industrial Output**  
-   - *Definition:* Tracks the environmental impact of industrialization by measuring carbon emissions per unit of GDP.  
-   - *Measurement:* Emissions data from international environmental organizations.  
-
-5. **Investment in Sustainable Infrastructure Projects**  
-   - *Definition:* Tracks financial commitments toward eco-friendly infrastructure and industrial projects.  
-   - *Measurement:* Global and national investment reports.  
 
 ---
 
