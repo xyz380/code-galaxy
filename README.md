@@ -27,7 +27,7 @@ This KPI highlights the industries with the highest energy consumption (in GJ), 
 - These industries should be prioritized for energy efficiency improvements.
 - **Manufacturing** stands out as a significant energy consumer, and improvements here could lead to substantial energy savings.
 - **Paper Manufacturing** and **Primary Metal Manufacturing** also contribute heavily to energy consumption, suggesting that optimization measures in these sectors would yield environmental and cost benefits.
-- 
+  
 2. ### Employee Earnings Growth Across Industries
 
 This KPI visualizes the growth of employee earnings across different industries from 2001 to 2023. It highlights industries that have shown consistent increases in earnings over time.
