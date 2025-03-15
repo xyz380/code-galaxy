@@ -14,16 +14,20 @@ For a deeper understanding of the problem, datasets, and methodology, refer to t
 ## Key Performance Indicators (KPIs)
 
 ### Total Energy Consumption by Industry
-- **Insights:**
-  - Based on the visualization, the **top 3 industries with the highest energy consumption** are:
-    - **Manufacturing**
-    - **Paper Manufacturing**
-    - **Primary Metal Manufacturing**
-  - These industries should be prioritized for energy efficiency improvements.
-  - **Manufacturing** stands out as a significant consumer, and improvements here could yield major energy savings.
-  - **Paper Manufacturing** and **Primary Metal Manufacturing** also contribute heavily to energy consumption, suggesting that efficiency programs could be beneficial for these sectors.
+
+This KPI highlights the industries with the highest energy consumption (in GJ), helping identify key sectors for energy optimization. It provides insights into which industries should be prioritized for energy efficiency initiatives.
 
 ![Energy Consumption by Industry](./visualizations/energy_consumption_by_industry.png)
+
+#### Insights:
+- Based on the visualization, the **top 3 industries with the highest energy consumption** are:
+  - **Manufacturing**
+  - **Paper Manufacturing**
+  - **Primary Metal Manufacturing**
+- These industries should be prioritized for energy efficiency improvements.
+- **Manufacturing** stands out as a significant energy consumer, and improvements here could lead to substantial energy savings.
+- **Paper Manufacturing** and **Primary Metal Manufacturing** also contribute heavily to energy consumption, suggesting that optimization measures in these sectors would yield environmental and cost benefits.
+
 
 
 The success of resilient infrastructure, sustainable industrialization, and innovation can be measured using the following KPIs:
