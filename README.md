@@ -17,12 +17,12 @@ For a deeper understanding of the problem, datasets, and methodology, refer to t
 
 This KPI highlights the industries with the highest energy consumption (in GJ), helping identify key sectors for energy optimization. It provides insights into which industries should be prioritized for energy efficiency initiatives.
 
-![Energy Consumption by Industry](images/Energy consumpition.png)
+![Energy Consumption Visualization](images/energy-consumption.png)
+
 
 #### Insights:
 - Based on the visualization, the **top 3 industries with the highest energy consumption** are:
   - **Manufacturing**
-  - 
   - **Paper Manufacturing**
   - **Primary Metal Manufacturing**
 - These industries should be prioritized for energy efficiency improvements.
