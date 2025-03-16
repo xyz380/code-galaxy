@@ -17,7 +17,7 @@ For a deeper understanding of the problem, datasets, and methodology, refer to t
 
 This KPI highlights the industries with the highest energy consumption (in GJ), helping identify key sectors for energy optimization. It provides insights into which industries should be prioritized for energy efficiency initiatives.
 
-![Energy Consumption Visualization](images/energy-consumption.png)
+![Energy Consumption Visualization](https://github.com/xyz380/code-galaxy/blob/main/images/Capital%20Expenditure%20on%20%20Different%20Infrastructure.png?raw=true)
 
 
 #### Insights:
