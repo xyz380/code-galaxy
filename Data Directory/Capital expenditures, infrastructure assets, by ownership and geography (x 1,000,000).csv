@@ -1,0 +1,45 @@
+﻿"Capital expenditures, infrastructure assets, by ownership and geography (x 1,000,000) 1 2"
+"Frequency: Annual"
+"Table: 34-10-0281-01"
+"Release date: 2025-02-26"
+"Geography: Canada, Province or territory"
+""
+""
+
+"Ownership","All ownerships",,,,,,,,,,
+"Functions of expenditures","All functions",,,,,,,,,,
+"Type of asset","Infrastructure assets",,,,,,,,,,
+"Geography","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"
+,"Dollars",,,,,,,,,,
+"Canada","70,759.9","72,906.6","77,748.0","72,031.2","80,059.9","93,337.9","100,104.8C","102,381.5C","108,110.1C","122,582.7C","135,882.3C"
+"Newfoundland and Labrador","1,498.1","2,121.6","2,973.9","3,364.0","3,690.5","2,116.5","2,117.0B","1,704.7B","1,676.8C","1,163.7C","1,332.3C"
+"Prince Edward Island","145.0","69.6","76.3","186.4","138.3","209.5","211.0B","307.8B","369.9B","427.6B","511.5C"
+"Nova Scotia","715.2","769.6","929.2","1,345.7","1,530.6","1,559.2","1,576.1E","1,801.5B","1,717.4C","2,519.3C","2,761.5C"
+"New Brunswick","1,051.4","921.5","1,157.6","1,369.7","1,492.7","1,710.4","1,461.2B","1,554.7C","1,514.4C","2,046.2C","2,281.2E"
+"Quebec","15,181.6","14,786.7","14,121.0","13,439.0","15,700.3","20,137.0","20,549.4B","19,860.7B","21,577.8B","23,541.9C","25,547.2B"
+"Ontario","22,719.1","24,722.4","27,162.9","22,865.4","27,654.8","32,318.1","33,933.6C","34,458.0C","36,752.6C","38,102.8C","44,599.3C"
+"Manitoba","2,106.2","2,947.6","3,759.6","4,421.6","3,959.0","3,903.1","3,882.9C","3,430.5B","2,847.6E","2,806.5C","3,357.4C"
+"Saskatchewan","1,974.7","1,989.9","2,836.0","3,745.9","3,151.0","4,171.5","3,633.3C","3,434.0C","3,343.6C","3,437.4C","3,950.8C"
+"Alberta","17,510.8","16,349.8","14,739.3","12,772.3","13,543.3","15,425.3","16,184.7C","16,583.5C","17,253.5C","20,549.6C","20,618.5B"
+"British Columbia","7,310.6","7,579.2","9,372.4","7,769.7","8,461.6","10,888.3","15,694.4B","18,603.7C","20,209.3B","26,809.7E","29,424.7B"
+"Yukon","97.2","182.3","116.1","171.4","184.0","134.1","218.5B","179.2E","220.6C","488.0B","582.9B"
+"Northwest Territories","313.5","302.1","286.3","315.7","324.3","417.4","303.8A","264.9A","350.4B","503.7B","583.3B"
+"Nunavut","136.5","164.2","217.5","264.3","229.5","347.5","338.8E","198.3A","276.4A","186.2B","331.7B"
+
+Symbol legend:
+E, use with caution
+A, data quality: excellent
+B, data quality: very good
+C, data quality: good
+
+
+
+
+Footnotes:
+1,"Capital expenditures are the gross expenditures on fixed assets during the year, including the purchase of new and used assets, additions to work in progress, and major renovations.  For an more information on the data in this table, see <a href="https://www150.statcan.gc.ca/n1/pub/34-26-0002/342600022020001-eng.htm" rel="external noopener noreferrer" target="_blank">Sources and Methods: Capital investment in Infrastructure (catalogue 34260002) (opens new window)</a>."
+2,"Data on capital expenditures for infrastructure assets by function prior to 2018 were backcast to 2013 using the Annual Survey of Capital and Repair Expenditures for those years, along with the functional distribution of organizations for the 2018 to 2022 period. It is advisable to exercise caution when comparing current estimates with those made prior to 2018."
+
+
+
+"How to cite: Statistics Canada. Table 34-10-0281-01  Capital expenditures, infrastructure assets, by ownership and geography (x 1,000,000)"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410028101
