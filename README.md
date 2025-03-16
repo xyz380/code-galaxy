@@ -17,7 +17,7 @@ For a deeper understanding of the problem, datasets, and methodology, refer to t
 
 This KPI highlights the industries with the highest energy consumption (in GJ), helping identify key sectors for energy optimization. It provides insights into which industries should be prioritized for energy efficiency initiatives.
 
-![Energy Consumption Visualization](https://github.com/xyz380/code-galaxy/blob/main/images/Capital%20Expenditure%20on%20%20Different%20Infrastructure.png?raw=true)
+![Energy Consumption Visualization](https://github.com/xyz380/code-galaxy/blob/main/images/Energy%20consumption.png?raw=true)
 
 
 #### Insights:
@@ -33,7 +33,7 @@ This KPI highlights the industries with the highest energy consumption (in GJ), 
 
 This KPI visualizes the growth of employee earnings across different industries from 2001 to 2023. It highlights industries that have shown consistent increases in earnings over time.
 
-![Employee Earnings Growth Across Industries](./visualizations/employee_earnings_growth.png)
+![Employee Earnings Growth Across Industries]( https://github.com/xyz380/code-galaxy/blob/main/images/Earnings%20in%20different%20industries%20over%20the%20time.png?raw=true)
 
 #### Insights:
 - **Highway street bridge construction**, **mining and quarrying**, and **gas extraction and utility system construction** have experienced the highest growth in employee earnings over the years.
@@ -44,7 +44,7 @@ This KPI visualizes the growth of employee earnings across different industries 
 
 This KPI tracks the capital expenditure on infrastructure and transportation infrastructure from 2013 to 2023. It highlights the top-growing sectors in terms of investment.
 
-![Capital Expenditure on Infrastructure and Transportation Infrastructure](./visualizations/capital_expenditure_infrastructure_transportation.png)
+![Capital Expenditure on Infrastructure and Transportation Infrastructure]( https://github.com/xyz380/code-galaxy/blob/main/images/Capital%20Expenditure%20on%20%20Different%20Infrastructure.png?raw=true)
 
 #### Insights:
 - **Infrastructure** and **transportation infrastructure** are the top two sectors with the highest capital expenditure over the years.
@@ -55,7 +55,7 @@ This KPI tracks the capital expenditure on infrastructure and transportation inf
 
 This KPI visualizes the greenhouse gas emissions across Canadian provinces using a geographic map. It identifies which provinces have the highest emissions, supporting targeted efforts to reduce environmental impact.
 
-![Greenhouse Gas Emission by Province](./visualizations/ghg_emission_by_province.png)
+![Greenhouse Gas Emission by Province](https://github.com/xyz380/code-galaxy/blob/main/images/High-Emission%20Provinces%20.png?raw=true)
 
 #### Insights:
 - **Ontario** and **Alberta** have the highest greenhouse gas emissions in Canada, as shown by the darker colors on the map.
@@ -66,7 +66,7 @@ This KPI visualizes the greenhouse gas emissions across Canadian provinces using
 
 This KPI highlights the trend of plastic usage across Canadian provinces and industries from 2012 to 2021. It shows where plastic consumption is increasing, focusing on the most significant provinces and industries.
 
-![Plastic Usage by Province and Industry Over Time](./visualizations/plastic_usage_over_time.png)
+![Plastic Usage by Province and Industry Over Time]( https://github.com/xyz380/code-galaxy/blob/main/images/Dashboard%201%20province%20with%20high%20plastic%20usage.png?raw=true)
 
 #### Insights:
 - **Ontario** and **Quebec** have the highest plastic usage among Canadian provinces and have shown an increasing trend over the years.
