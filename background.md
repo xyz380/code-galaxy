@@ -16,75 +16,88 @@ With rapid urbanization and climate change concerns, a data-driven approach is n
 
 This study is crucial for several reasons:  
 
-1. **Infrastructure Gaps Impact Global Development**  
-   - Over **1 billion people** lack access to reliable electricity, while **2.4 billion** people lack safe sanitation facilities<mark>(cite)</mark>.  
-   - Poor infrastructure hinders economic opportunities, reduces productivity, and slows industrial growth<mark>(cite)</mark>.  
+## Significance of the Study  
 
-2. **Industrialization Drives Economic Progress**  
-   - Sustainable industries create jobs, enhance productivity, and improve living standards.  
-   - Countries with strong industrial bases tend to have higher GDP growth rates<mark>(cite)</mark>.  
+This study is crucial for several reasons:  
 
-3. **Innovation Fuels Competitiveness**  
-   - Research and development (R&D) investments lead to technological breakthroughs and new industries.  
-   - The most innovative countries outperform others in productivity and economic resilience.  
+1. **Energy Consumption and Industrial Efficiency**  
+   - Tracking **total energy consumption by industry** helps identify which sectors drive high energy demand.  
+   - Understanding industrial energy usage enables policymakers to promote **energy-efficient practices** and **reduce operational costs**.  
 
-4. **Environmental Sustainability Matters**  
-   - Industrial activities contribute to carbon emissions and environmental degradation.  
-   - Sustainable infrastructure and eco-friendly technologies reduce environmental harm while supporting industrial growth.  
+2. **Plastic Usage and Environmental Impact**  
+   - Examining **plastic usage by province and industry over time** reveals trends in **waste production** and recycling challenges.  
+   - This insight supports policies for **sustainable material usage** and **waste management strategies**.  
 
+3. **Greenhouse Gas Emissions and Climate Responsibility**  
+   - **Greenhouse gas (GHG) emissions by province** highlight the environmental footprint of different regions.  
+   - Data-driven policies can help **reduce carbon emissions**, promote **clean energy**, and meet **climate targets**.  
+
+4. **Infrastructure Investment and Economic Growth**  
+   - Analyzing **capital expenditure on infrastructure and transportation** shows **regional investment priorities** and economic development trends.  
+   - Well-planned infrastructure spending supports **job creation**, **business growth**, and **long-term economic stability**.  
+
+5. **Workforce Earnings and Industrial Prosperity**  
+   - Studying **employee earning growth across industries** reveals **income disparities** and labor market trends.  
+   - Insights into wage growth help design policies for **fair wages, job stability, and industry-specific workforce planning**.  
+
+This study focuses on **Canada**, offering data-driven insights into industrial sustainability, economic resilience, and environmental impact.  
+  
 ## Research Objectives  
 
 This study aims to:  
 
-1. Assess global infrastructure quality and its impact on economic growth.  
-2. Analyze the role of industrialization in sustainable development.  
-3. Identify key drivers of innovation and technology adoption.  
-4. Evaluate the effectiveness of sustainable industrial policies.  
-5. Provide data-driven recommendations for resilient infrastructure investments.  
+1. **Analyze total energy consumption by industry** to identify high-demand sectors and promote energy efficiency.  
+2. **Examine plastic usage by province and industry over time** to assess waste production trends and support sustainable material management.  
+3. **Evaluate greenhouse gas (GHG) emissions by province** to understand regional environmental impacts and inform climate policies.  
+4. **Assess capital expenditure on infrastructure and transportation** to determine investment trends and economic development priorities.  
+5. **Study employee earning growth across industries** to highlight labor market trends, wage disparities, and workforce stability.  
+
+This research focuses on **Canada**, providing insights into industrial sustainability, environmental responsibility, and economic resilience.  
+  
 
 ## Datasets  
 
-1. **World Bank Infrastructure Data**  
-   - Source: [https://data.worldbank.org/topic/infrastructure](https://data.worldbank.org/topic/infrastructure)  
-   - Contents: Global infrastructure quality, investment trends, and access to utilities.  
-   - Temporal coverage: 2000-2023  
-   - Geographic scope: Global, country-level data  
+1. **Canada's Total Energy Consumption by Industry**  
+   - Source: [Statistics Canada - Total Energy Consumption by Industry](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=2510002501)  
+   - Contents: Total energy consumption data by Canadian industry sectors.  
+   - Temporal coverage: 2014-2023  
+   - Geographic scope: Canada, provincial-level data  
 
-2. **UNIDO Industrial Development Database**  
-   - Source: [https://stat.unido.org](https://stat.unido.org)  
-   - Contents: Industrialization growth, GDP contribution, and employment statistics.  
+2. **Plastic Usage in Canada by Province and Industry**  
+   - Source: [Statistics Canada - Plastic Usage by Province and Industry](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810015001)  
+   - Contents: Plastic consumption trends in various provinces and industries across Canada.  
+   - Temporal coverage: 2010-2023  
+   - Geographic scope: Canada, provincial-level data  
+
+3. **Greenhouse Gas Emissions by Province in Canada**  
+   - Source: [Statistics Canada - Greenhouse Gas Emissions by Province](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610065501)  
+   - Contents: Provincial greenhouse gas emissions data by industry and sector.  
    - Temporal coverage: 1990-2023  
-   - Geographic scope: Global, country-level data  
+   - Geographic scope: Canada, provincial-level data  
 
-3. **Global Innovation Index (GII)**  
-   - Source: [https://www.globalinnovationindex.org](https://www.globalinnovationindex.org)  
-   - Contents: Innovation performance rankings, R&D investments, and technology indicators.  
-   - Temporal coverage: 2007-2023  
-   - Geographic scope: Global, country-level data  
-
-4. **IEA CO₂ Emissions from Fuel Combustion Database**  
-   - Source: [https://www.iea.org/reports/co2-emissions-from-fuel-combustion](https://www.iea.org/reports/co2-emissions-from-fuel-combustion)  
-   - Contents: CO₂ emissions by industry sector and country.  
-   - Temporal coverage: 1990-2023  
-   - Geographic scope: Global, country-level data  
-
-5. **OECD Green Growth Indicators**  
-   - Source: [https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH](https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH)  
-   - Contents: Sustainable investment trends and industrial resource efficiency.  
+4. **Capital Expenditure on Infrastructure and Transportation in Canada**  
+   - Source: [Statistics Canada - Capital Expenditure on Infrastructure and Transportation](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3410028101)  
+   - Contents: Data on capital investments in infrastructure and transportation in Canadian provinces.  
    - Temporal coverage: 2000-2023  
-   - Geographic scope: OECD countries, with some global data  
+   - Geographic scope: Canada, provincial-level data  
+
+5. **Employee Earning Growth Across Canadian Industries**  
+   - Source: [Statistics Canada - Employee Earning Growth Across Industries](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410020401)  
+   - Contents: Data on wage growth and employment trends across various Canadian industries.  
+   - Temporal coverage: 2010-2023  
+   - Geographic scope: Canada, provincial-level data  
 
 ## References  
 
-1. United Nations. (2023). *Sustainable Development Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation*. Retrieved from [https://sdgs.un.org/goals/goal9](https://sdgs.un.org/goals/goal9).  
+1. Government of Canada. (2023). *Energy Consumption in Canada: Industry and Provincial Trends*. Retrieved from [Statistics Canada - Total Energy Consumption by Industry](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=2510002501).  
 
-2. World Bank. (2023). *Infrastructure for Development: Data and Insights*. Retrieved from [https://data.worldbank.org/topic/infrastructure](https://data.worldbank.org/topic/infrastructure).  
+2. Statistics Canada. (2023). *Plastic Consumption and Recycling in Canada*. Retrieved from [Statistics Canada - Plastic Usage by Province and Industry](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810015001).  
 
-3. United Nations Industrial Development Organization (UNIDO). (2023). *World Manufacturing Production Report*. Retrieved from [https://stat.unido.org](https://stat.unido.org).  
+3. Environment Canada. (2023). *Greenhouse Gas Emissions in Canada: Provincial and National Reports*. Retrieved from [Statistics Canada - Greenhouse Gas Emissions by Province](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610065501).  
 
-4. Dutta, S., Lanvin, B., & Wunsch-Vincent, S. (2023). *Global Innovation Index 2023: Innovation in a Shifting World*. Retrieved from [https://www.globalinnovationindex.org](https://www.globalinnovationindex.org).  
+4. Statistics Canada. (2023). *Infrastructure and Transportation Expenditures in Canada*. Retrieved from [Statistics Canada - Capital Expenditure on Infrastructure and Transportation](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=3410028101).  
 
-5. International Energy Agency (IEA). (2023). *Tracking Clean Energy Progress: CO₂ Emissions from Fuel Combustion*. Retrieved from [https://www.iea.org/reports/co2-emissions-from-fuel-combustion](https://www.iea.org/reports/co2-emissions-from-fuel-combustion).  
+5. Statistics Canada. (2023). *Earnings and Employment Trends Across Industries in Canada*. Retrieved from [Statistics Canada - Employee Earning Growth Across Industries](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410020401).  
 
 ---
 
