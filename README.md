@@ -101,6 +101,9 @@ This KPI highlights the trend of plastic usage across Canadian provinces and ind
 
 To build on the insights from Tableau, we introduced more advanced statistical methods in Milestone 3.
 ### 4.1 Correlation Matrix and Heatmap
+
+![Correlation Heatmap](https://github.com/xyz380/code-galaxy/blob/main/images/Corelation%20Heatmap.png?raw=true)
+
 Using Pearson’s correlation coefficients for our five KPIs:
 - **Strong positive cluster**: Earnings_Value, CapitalExpenditure, GHG_Value, and Plastic_Value (0.84–0.97).
 - **Negative correlation**: Energy_Value with the other four KPIs (around -0.88 to -0.91).
@@ -108,6 +111,9 @@ Using Pearson’s correlation coefficients for our five KPIs:
 > **Key Takeaway**: When Earnings, Capital Expenditure, GHG, and Plastic Usage rise, Energy Consumption tends to decrease, or vice versa. However, correlation alone doesn’t imply causation.
 
 ### 4.2 Causal Inference with DoWhy
+
+![Causal Inference Diagram](https://github.com/xyz380/code-galaxy/blob/main/images/Causal%20Inference.png?raw=true)
+
 We treated **CapitalExpenditure** as the treatment and **Energy_Value** as the outcome, with Earnings_Value, GHG_Value, and Plastic_Value as confounders.
 
 - **Identified Estimand**: A backdoor path requiring us to condition on the confounders.
